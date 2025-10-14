@@ -1,0 +1,462 @@
+# ================================
+# ENVIRONMENT VARIABLES
+# ================================
+.env
+.env.local
+.env.production
+.env.development
+.env.test
+.env.staging
+*.env
+.env.*
+!.env.example
+
+# ================================
+# PYTHON - VIRTUAL ENVIRONMENTS
+# ================================
+# Virtual environments
+venv/
+env/
+ENV/
+venv*/
+env*/
+.venv/
+.venv*/
+virtualenv/
+virtualenv*/
+
+# Python virtual environment in project root
+/bin/
+/include/
+/lib/
+lib64/
+pip-selfcheck.json
+pyvenv.cfg
+.Python
+
+# ================================
+# PYTHON - BYTECODE & CACHE
+# ================================
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# pipenv
+#   According to pypa/pipenv#598, it is recommended to include Pipfile.lock in version control.
+#   However, in case of collaboration, if having platform-specific dependencies or dependencies
+#   having no cross-platform support, pipenv may install dependencies that don't work, or not
+#   install all needed dependencies.
+#Pipfile.lock
+
+# celery beat schedule file
+celerybeat-schedule
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# ================================
+# DOCKER
+# ================================
+# Docker
+docker-compose.override.yml
+docker-compose.prod.yml
+docker-compose.dev.yml
+*.dockerfile
+Dockerfile.dev
+Dockerfile.prod
+
+# Docker data volumes
+data/
+volumes/
+postgres_data/
+
+# ================================
+# STREAMLIT
+# ================================
+# Streamlit
+.streamlit/
+.streamlit/*.toml
+.streamlit/secrets.toml
+
+# ================================
+# IDE & EDITOR FILES
+# ================================
+# VS Code
+.vscode/
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# PyCharm
+.idea/
+*.iws
+*.iml
+*.ipr
+.idea_modules/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Sublime Text
+*.sublime-workspace
+*.sublime-project
+
+# Vim
+*.swp
+*.swo
+*~
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# ================================
+# LOGS
+# ================================
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# ================================
+# DATABASE
+# ================================
+# Database files
+*.db
+*.db-journal
+*.sqlite
+*.sqlite3
+postgres_data/
+
+# Database dumps
+*.dump
+*.backup
+*.bak
+
+# ================================
+# TESTING & CI/CD
+# ================================
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+test-results/
+junit.xml
+
+# CI/CD
+.circleci/
+.travis.yml
+.gitlab-ci.yml
+.github/workflows/*.yml
+!.github/workflows/ci-cd.yml
+
+# ================================
+# OS SPECIFIC
+# ================================
+# Windows
+# Folder config file
+[Dd]esktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
+
+# macOS
+# General
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon must end with two \r
+Icon
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Linux
+*~
+
+# temporary files which can be created if a process still has a handle open of a deleted file
+.fuse_hidden*
+
+# KDE directory preferences
+.directory
+
+# Linux trash folder which might appear on any partition or disk
+.Trash-*
+
+# .nfs files are created when an open file is removed but is still being accessed
+.nfs*
+
+# ================================
+# BINANCE API SPECIFIC
+# ================================
+# API keys and sensitive data
+api_keys.json
+secrets.json
+config.json
+binance_config.yaml
+binance_config.yml
+
+# Trade exports
+exports/
+backups/
+*.csv
+*.xlsx
+*.json
+
+# ================================
+# CUSTOM PROJECT FILES
+# ================================
+# Project specific
+uploads/
+temp/
+tmp/
+cache/
+.sass-cache/
+.nyc_output/
+
+# Backup files
+*.backup
+*.bak
+*.old
+*.orig
+*.save
+
+# ================================
+# DOCUMENTATION
+# ================================
+# Sphinx documentation
+docs/_build/
+
+# ================================
+# MISC
+# ================================
+# End of line
+*~
+
+# Package files
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Archives
+*.tar.gz
+*.tgz
+*.zip
+*.rar
+
+# Media files
+*.mp4
+*.avi
+*.mov
+*.mp3
+*.wav
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+*.tiff
+
+# Certificate files
+*.cer
+*.crt
+*.key
+*.pem
+*.pfx
+
+# LaTeX files
+*.aux
+*.log
+*.out
+*.toc
+
+# ================================
+# SECURITY - NEVER COMMIT THESE!
+# ================================
+# Security sensitive files
+*.key
+*.pem
+*.crt
+*.cer
+*.pfx
+*.p12
+id_rsa*
+id_dsa*
+*.keystore
+*.jks
+*.truststore
+
+# Git credentials
+.git-credentials
+
+# Session files
+*.session
+*.session.*
+
+# Password files
+*password*
+*passwd*
+*secret*
+*private*
+
+# ================================
+# EXCEPTIONS - FILES TO KEEP
+# ================================
+# Keep these files/folders
+!.gitkeep
+!.dockerignore
+!.github/
+!.vscode/settings.json.example
+!.vscode/extensions.json.example
+
+# Example files (keep these)
+!*.example
+!*.sample
+!*.template
+
+# Documentation files
+!README.md
+!LICENSE
+!CONTRIBUTING.md
+!CHANGELOG.md
